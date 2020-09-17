@@ -1,0 +1,33 @@
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  li{
+    background-color: coral;
+    border-bottom: 1px solid #ccc;
+    line-height: 60px;
+    color: #fff;
+    font-size: 20px;
+    display: table;
+    width: 100%;
+    user-select: none;
+    span{
+      width: 60%;
+      display: inline-block;
+    }
+    i, button{
+      display: table-cell;
+    }
+    .my-actived, .my-disable{
+      background: yellow;
+      height: 30px;
+      width: 30px;
+      z-index: 1;
+      display: inline-block;
+      border-radius: 50%;
+    }
+    .my-disable{
+      background: red;
+    }
+  }
+}
